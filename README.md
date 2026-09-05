@@ -40,8 +40,9 @@ Practica-AG/
 └── venv/                      # Entorno virtual (excluido por .gitignore)
 
 
-## Integrantes 
 
 Integrante	               Rama	                               Ejercicios Resueltos
 Yecid Villamil	feature/Yecid_Villamil_AG	Ejercicio 1 (Portafolio) y Ejercicio 4 (Análisis)
 Yesid Martinez	feature/Yesid_Martinez_AG	Ejercicio 2 (Selección de Personal) y Ejercicio 3 (Cruzamiento)
+
+
