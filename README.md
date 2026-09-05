@@ -24,7 +24,9 @@ Este proyecto implementa soluciones basadas en **Algoritmos Genéticos** para re
 
 > **Instalación de dependencias:**
 >
+> ```bash
 > pip install numpy pandas matplotlib
+> ```
 
 ---
 
@@ -39,6 +41,7 @@ Practica-AG/
 │   ├── Ejercicio2_seleccion_personal.ipynb # Selección de personal
 │   └── Ejercicio3_cruzamiento.ipynb   # Operador de cruzamiento de dos puntos
 └── venv/                      # Entorno virtual (excluido por .gitignore)
+```
 
 ## Integrantes
 
@@ -61,9 +64,9 @@ El objetivo es obtener el equipo con la mayor habilidad técnica posible. La res
 
 La función de aptitud primero cuenta los bits encendidos. Cuando el cromosoma tiene exactamente cinco bits con valor `1`, la aptitud corresponde a la suma de las habilidades de las personas seleccionadas. Si la cantidad es diferente de cinco, se utiliza la penalización:
 
-
+```text
 -1000 - (100 * diferencia con respecto a cinco)
-
+```
 
 Por ejemplo, un cromosoma que selecciona seis personas recibe una aptitud de `-1100`. Esta penalización hace que los individuos que incumplen la restricción tengan pocas posibilidades de ganar la selección por torneo.
 
@@ -81,7 +84,7 @@ Por ejemplo, un cromosoma que selecciona seis personas recibe una aptitud de `-1
 
 En la primera generación solamente 9 de los 40 individuos eran válidos. Debido a la penalización, los equipos de cinco personas fueron aumentando y en la generación 10 los 40 individuos eran válidos. El mejor resultado obtenido con la semilla utilizada fue el genotipo `101010001010`, que representa a Ana, Carla, Elena, Isabel y Karen. La habilidad técnica total fue de 452 puntos.
 
-
+---
 
 # Actividad 3
 
@@ -95,12 +98,12 @@ El operador se incorporó al flujo completo del algoritmo genético y se utiliz�
 
 Con la semilla establecida, el ejemplo utiliza los puntos 1 y 3:
 
-
+```text
 Padre 1: 11100
 Padre 2: 00011
 Hijo 1:  10000
 Hijo 2:  01111
-
+```
 
 Los genes ubicados entre los dos puntos de corte son los que cambian de padre.
 
@@ -116,4 +119,3 @@ Los genes ubicados entre los dos puntos de corte son los que cambian de padre.
 ## Resultados
 
 El algoritmo encontró el genotipo `11111`, que corresponde al número 31. Su aptitud es `31² = 961`, que es el valor máximo posible dentro del espacio de búsqueda. El resultado también demuestra que el operador de dos puntos funciona dentro del ciclo completo del algoritmo genético.
-
