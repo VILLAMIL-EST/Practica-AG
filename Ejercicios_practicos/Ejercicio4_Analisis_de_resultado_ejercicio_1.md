@@ -1,4 +1,4 @@
-## 📊 Ejercicio 4: Análisis de Resultados
+## Ejercicio 4: Análisis de Resultados
 
 ### ¿Cómo afectó la penalización fuerte a la supervivencia de las soluciones?
 
