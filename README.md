@@ -38,11 +38,3 @@ Practica-AG/
 │   ├── Ejercicio2_seleccion_personal.ipynb # Selección de personal
 │   └── Ejercicio3_cruzamiento.ipynb   # Operador de cruzamiento de dos puntos
 └── venv/                      # Entorno virtual (excluido por .gitignore)
-
-
-
-Integrante	               Rama	                               Ejercicios Resueltos
-Yecid Villamil	feature/Yecid_Villamil_AG	Ejercicio 1 (Portafolio) y Ejercicio 4 (Análisis)
-Yesid Martinez	feature/Yesid_Martinez_AG	Ejercicio 2 (Selección de Personal) y Ejercicio 3 (Cruzamiento)
-
-
