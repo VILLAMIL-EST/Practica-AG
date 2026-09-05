@@ -1,11 +1,11 @@
-# 🧬 Practica-AG: Optimización Combinatoria con Algoritmos Genéticos
+#  Practica-AG: Optimización Combinatoria con Algoritmos Genéticos
 
-## 📌 Introducción
+##  Introducción
 Este proyecto implementa soluciones basadas en **Algoritmos Genéticos** para resolver problemas de optimización combinatoria con restricciones, inspirados en el **Problema de la Mochila**. El objetivo es maximizar funciones de aptitud (fitness) bajo limitaciones específicas como presupuestos, números fijos de elementos y reglas de selección.
 
 ---
 
-## 🛠️ Herramientas y Tecnologías Utilizadas
+##  Herramientas y Tecnologías Utilizadas
 
 | Herramienta | Versión/Descripción | Uso en el Proyecto |
 | :--- | :--- | :--- |
@@ -15,7 +15,7 @@ Este proyecto implementa soluciones basadas en **Algoritmos Genéticos** para re
 | **Git & GitHub** | Control de versiones | Gestión de ramas, commits y colaboración en equipo. |
 | **Entorno Virtual** | `venv` | Aislamiento de dependencias del proyecto. |
 
-### 📦 Librerías Principales
+###  Librerías Principales
 - **NumPy**: Cálculos numéricos y manipulación de arrays (cromosomas).
 - **Pandas**: Estructura y análisis de datos de proyectos/candidatos.
 - **Matplotlib**: Visualización de gráficos (evolución del fitness, distribución de recursos).
@@ -27,7 +27,7 @@ Este proyecto implementa soluciones basadas en **Algoritmos Genéticos** para re
 
 ---
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```text
 Practica-AG/
@@ -38,6 +38,9 @@ Practica-AG/
 │   ├── Ejercicio2_seleccion_personal.ipynb # Selección de personal
 │   └── Ejercicio3_cruzamiento.ipynb   # Operador de cruzamiento de dos puntos
 └── venv/                      # Entorno virtual (excluido por .gitignore)
+
+
+## Integrantes 
 
 Integrante	               Rama	                               Ejercicios Resueltos
 Yecid Villamil	feature/Yecid_Villamil_AG	Ejercicio 1 (Portafolio) y Ejercicio 4 (Análisis)
