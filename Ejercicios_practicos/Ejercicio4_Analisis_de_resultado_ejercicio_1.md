@@ -16,3 +16,5 @@ En el Ejercicio 1, implementamos una penalización fuerte de **10**. Si el costo
 
 **Conclusión:**
 La penalización fuerte de **10** fue clave para que el algoritmo **aprendiera rápido a evitar violar la restricción**, asegurando que las soluciones finales fueran **viables y óptimas**. Sin ella, podríamos decir que el algoritmo tardaría más o elegiría soluciones inviables, lo que demoraría más el trabajo enfocado en la eficiencia.
+
+#
